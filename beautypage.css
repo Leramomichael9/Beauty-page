@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header > h2{
+ color: rgba(128, 128, 128, 0.787);
+}
+
+.text{
+    color: darkslategrey;
+    font-size: larger;
+    font-weight: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.part-2{
+    background-image: url(/images/pics3.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px ;
+}
+.part-2>h2{
+    color: white;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-2{
+    padding-left: 80px;
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.button{
+    color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width: 120px;
+    margin:30px 0 0 100px;
+    padding: 5px;
+    
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 7px;
+}
+.socials{
+    display:flex;
+    padding-top: 50px;
+    gap: 30px;
+    padding-left: 70px;
+}
+.facebook{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px;
+    cursor: pointer;
+    width: 30px;
+}
+.twitter{
+   border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    width: 30px;
+    padding: 5px;
+    cursor: pointer;  
+}
+.instagram{
+     border: 2px solid white;
+    background-color: white;
+    border-radius: 50px;
+    width: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+.bread-crumb{
+    background-color:white;
+    height: 400px;
+    color: darkslategrey;
+    font-size: 18px;
+}
+.bread-crumb h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.sub{
+    text-align: center;
+    color: darkgray;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.sub-text{
+    text-align: center;
+     font-family: cursive;
+}
+.footer{
+    background-color: darkslategrey;
+    height: 68px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
